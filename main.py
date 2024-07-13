@@ -90,7 +90,7 @@ def send_messages_from_file():
       with open('name.txt', 'r') as file:
           haters_name = file.read().strip()
 
-      with open('time.txt', 'r') as file:
+      with open('speed.txt', 'r') as file:
           speed = int(file.read().strip())
 
       def liness():
